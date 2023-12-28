@@ -1,7 +1,11 @@
 ### Hi there 👋
 
-![#](https://via.placeholder.com/150/000000/FFFFFF/?text=Dark)
-![#](https://via.placeholder.com/150/FFFFFF/000000/?text=Light)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://via.placeholder.com/150/000000/FFFFFF/?text=Dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://via.placeholder.com/150/FFFFFF/000000/?text=Light">
+  <img alt="Description of the image" src="Fallback_image_URL">
+</picture>
+
 
 
 <!--
